@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("background body.webp"); /* Assuming the image is in the same directory as the CSS file */
+    background-size: cover; /* Optional: Adjust background size */
+    background-position: center; /* Optional: Adjust background position */
+}
+
+.container1 {
+    height: 550px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E2BFD9;
+    background-size: cover; /* Ensure the background covers the container */
+    padding: 20px;
+}
+
+.container2 {
+    height: 550px;
+    width: 600px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-image: url("background cutiee.webp"); /* Assuming the image is in the same directory as the CSS file */
+    background-size: cover; /* Ensure the background covers the container */
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif {
+    height: 20rem;
+    width: 20rem;
+    background-color: #ff00c3;
+}
+
+.gif img {
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+    margin: 8px;
+    border: 2px solid palevioletred;
+    background-color: #ff00c3;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.button a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Change text color to black */
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.button a:hover {
+    color: white; /* Change text color on hover */
+}
+
+button {
+    background-color: inherit; /* Inherit the background color from the parent div */
+    border: none; /* Remove the default button border */
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}

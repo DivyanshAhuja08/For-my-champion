@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe4e1;
+    overflow: hidden;
+    background-image: url('romantic-background.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%; /* Start off-screen */
+    transition: top 0.6s ease-in-out;
+}
+
+.page1 {
+    top: 0; /* Visible on load */
+}
+
+.page2 {
+    background-color: transparent; /* Allow background image to show */
+}
+
+.container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+h2, h3 {
+    color: #ff1493;
+}
+
+button.btn {
+    background-color: transparent;
+    color: #ff4500;
+    border: 2px solid #ff4500;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button.btn:hover {
+    background-color: #ff4500;
+    color: #fff;
+}
+
+.hearts {
+    position: absolute;
+    font-size: 24px;
+    animation: float 5s infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+}
+
+.chori-chori {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#beauti h1,
+#gorg h1,
+#wow h1 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.beauti {
+    color: #ff69b4;
+    animation: pulse 2s infinite;
+}
+
+.gorg {
+    color: #ff6347;
+    animation: pulse 2.5s infinite;
+}
+
+.wow {
+    color: #ffa07a;
+    animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+#center {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#center button {
+    background-color: #f7f0aa;
+    color: #d32f2f;
+    font-size: 22px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#center button:hover {
+    transform: scale(1.1);
+    background-color: #ffc107;
+}

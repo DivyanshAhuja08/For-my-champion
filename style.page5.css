@@ -1,0 +1,73 @@
+/* styles/style.page5.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fbe9e7; /* Soft romantic pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./assets/img/bckground/romantic-background.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.gif img {
+    width: 100%;
+    max-width: 400px; /* Limit the size of the GIF */
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 18px;
+    color: #333; /* Darker text color for readability */
+    margin: 20px 0;
+    font-weight: normal;
+    line-height: 1.6; /* Improved readability */
+    text-align: justify; /* Justify text for a clean look */
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.button button {
+    background-color: #e91e63; /* Deep pink color */
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button button:hover {
+    background-color: #c2185b; /* Darker pink on hover */
+    transform: scale(1.05);
+}
